@@ -21,7 +21,7 @@ type Service struct { // название не соотв. содержанию,
 	IsInit bool
 }
 
-// инициилуетсся пулл конектов
+// инициализируется пулл конектов
 // если он действительно нужен, авторы библиотеки рекомендуют
 // использовать вместо github.com/jackc/pgx/v4 -> github.com/jackc/pgx/v4/pgxpool
 // pgx.Connect() -> pgxpool.Connect()
